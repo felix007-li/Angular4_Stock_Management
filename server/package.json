@@ -1,21 +1,33 @@
 {
-  "name": "stock-server",
-  "version": "1.0.0",
-  "description": "",
+  "name": "tsa-server",
+  "version": "0.1.0",
+  "description": "tsa aa",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MathijsDEV/Angular4_Stock_Management.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@angular-devkit/schematics": "^9.1.9",
+    "@angular/cli": "^9.1.9",
     "@types/express": "^4.11.1",
     "@types/node": "^7.0.65",
+    "bufferutil": "^4.0.1",
     "express": "^4.16.3",
-    "ws": "^2.3.1"
+    "utf-8-validate": "^5.0.2",
+    "ws": "^7.3.0"
   },
   "devDependencies": {
     "@types/ws": "0.0.41"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/MathijsDEV/Angular4_Stock_Management/issues"
+  },
+  "homepage": "https://github.com/MathijsDEV/Angular4_Stock_Management#readme"
 }
